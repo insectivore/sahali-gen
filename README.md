@@ -12,7 +12,7 @@ traits with each new generation.
 
 ## requirements:
 - platform: N/A (that I know of)
-- software: Python interpreter
+- software: Python interpreter, rich library (this isn't an .exe yet)
 
 ## how to run:
 For now, this is a terminal-based game. It will hopefully have a GUI in the future...
