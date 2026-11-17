@@ -1,0 +1,232 @@
+[
+    {
+        "area": "none",
+        "part": "none",
+        "feature": "none"
+    },
+    {
+        "area": "head",
+        "part": "eye",
+        "feature": "missing"
+    },
+    {
+        "area": "head",
+        "part": "eye",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "head",
+        "part": "eye",
+        "feature": "blind"
+    },
+    {
+        "area": "head",
+        "part": "lip",
+        "feature": "cleft"
+    },
+    {
+        "area": "head",
+        "part": "lip",
+        "feature": "torn"
+    },
+    {
+        "area": "head",
+        "part": "lip",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "head",
+        "part": "teeth",
+        "feature": "missing"
+    },
+    {
+        "area": "head",
+        "part": "teeth",
+        "feature": "crooked"
+    },
+    {
+        "area": "head",
+        "part": "teeth",
+        "feature": "nubby"
+    },
+    {
+        "area": "torso",
+        "part": "neck",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "torso",
+        "part": "neck",
+        "feature": "long"
+    },
+    {
+        "area": "torso",
+        "part": "neck",
+        "feature": "stout"
+    },
+    {
+        "area": "torso",
+        "part": "chest",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "torso",
+        "part": "chest",
+        "feature": "concave"
+    },
+    {
+        "area": "torso",
+        "part": "chest",
+        "feature": "flared"
+    },
+    {
+        "area": "torso",
+        "part": "back",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "torso",
+        "part": "back",
+        "feature": "humped"
+    },
+    {
+        "area": "torso",
+        "part": "back",
+        "feature": "ridged"
+    },
+    {
+        "area": "arm",
+        "part": "fingers",
+        "feature": "long"
+    },
+    {
+        "area": "arm",
+        "part": "fingers",
+        "feature": "gnarled"
+    },
+    {
+        "area": "arm",
+        "part": "fingers",
+        "feature": "stubby"
+    },
+    {
+        "area": "arm",
+        "part": "forearm",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "arm",
+        "part": "forearm",
+        "feature": "twisted"
+    },
+    {
+        "area": "arm",
+        "part": "forearm",
+        "feature": "twitchy"
+    },
+    {
+        "area": "arm",
+        "part": "palms",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "arm",
+        "part": "palms",
+        "feature": "branded"
+    },
+    {
+        "area": "arm",
+        "part": "palms",
+        "feature": "rough"
+    },
+    {
+        "area": "leg",
+        "part": "foot",
+        "feature": "clubbed"
+    },
+    {
+        "area": "leg",
+        "part": "foot",
+        "feature": "flat"
+    },
+    {
+        "area": "leg",
+        "part": "foot",
+        "feature": "missing"
+    },
+    {
+        "area": "leg",
+        "part": "knee",
+        "feature": "weak"
+    },
+    {
+        "area": "leg",
+        "part": "knee",
+        "feature": "broken"
+    },
+    {
+        "area": "leg",
+        "part": "knee",
+        "feature": "stiff"
+    },
+    {
+        "area": "leg",
+        "part": "shins",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "leg",
+        "part": "shins",
+        "feature": "bowed"
+    },
+    {
+        "area": "leg",
+        "part": "shins",
+        "feature": "long"
+    },
+    {
+        "area": "tail",
+        "part": "tail-tip",
+        "feature": "kinked"
+    },
+    {
+        "area": "tail",
+        "part": "tail-tip",
+        "feature": "pointy"
+    },
+    {
+        "area": "tail",
+        "part": "tail-tip",
+        "feature": "missing"
+    },
+    {
+        "area": "tail",
+        "part": "tail underside",
+        "feature": "scarred-over"
+    },
+    {
+        "area": "tail",
+        "part": "tail underside",
+        "feature": "burnt"
+    },
+    {
+        "area": "tail",
+        "part": "tail underside",
+        "feature": "bumpy"
+    },
+    {
+        "area": "tail",
+        "part": "tail-spines",
+        "feature": "elongated"
+    },
+    {
+        "area": "tail",
+        "part": "tail-spines",
+        "feature": "worn-down"
+    },
+    {
+        "area": "tail",
+        "part": "tail-spines",
+        "feature": "broken"
+    }
+]

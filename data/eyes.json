@@ -1,0 +1,74 @@
+[
+    {
+        "base": "red",
+        "color": "cinnamon brown"
+    },
+    {
+        "base": "red",
+        "color": "currant red"
+    },
+    {
+        "base": "red",
+        "color": "crimson red"
+    },
+    {
+        "base": "red",
+        "color": "carmine red"
+    },
+    {
+        "base": "orange",
+        "color": "caramel brown"
+    },
+    {
+        "base": "orange",
+        "color": "amber orange"
+    },
+    {
+        "base": "orange",
+        "color": "honey orange"
+    },
+    {
+        "base": "orange",
+        "color": "apricot orange"
+    },
+    {
+        "base": "yellow",
+        "color": "golden brown"
+    },
+    {
+        "base": "yellow",
+        "color": "mustard yellow"
+    },
+    {
+        "base": "yellow",
+        "color": "golden yellow"
+    },
+    {
+        "base": "yellow",
+        "color": "sandy yellow"
+    },
+    {
+        "base": "gray",
+        "color": "blackish-gray"
+    },
+    {
+        "base": "gray",
+        "color": "stormy gray"
+    },
+    {
+        "base": "gray",
+        "color": "cloudy gray"
+    },
+    {
+        "base": "gray",
+        "color": "silver gray"
+    },
+    {
+        "base": "hyperpigmented",
+        "color": "pure black"
+    },
+    {
+        "base": "apigmented",
+        "color": "clear-white"
+    }
+]

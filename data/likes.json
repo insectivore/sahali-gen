@@ -1,0 +1,198 @@
+[
+    {
+        "type": "animal",
+        "like": "hyenas"
+    },
+    {
+        "type": "animal",
+        "like": "foxes"
+    },
+    {
+        "type": "animal",
+        "like": "camels"
+    },
+    {
+        "type": "animal",
+        "like": "sheep"
+    },
+    {
+        "type": "animal",
+        "like": "goats"
+    },
+    {
+        "type": "animal",
+        "like": "gazelles"
+    },
+    {
+        "type": "animal",
+        "like": "mice"
+    },
+    {
+        "type": "animal",
+        "like": "snakes"
+    },
+    {
+        "type": "animal",
+        "like": "birds"
+    },
+    {
+        "type": "animal",
+        "like": "lizards"
+    },
+    {
+        "type": "animal",
+        "like": "dragons"
+    },
+    {
+        "type": "animal",
+        "like": "butterflies"
+    },
+    {
+        "type": "animal",
+        "like": "beetles"
+    },
+    {
+        "type": "animal",
+        "like": "spiders"
+    },
+    {
+        "type": "animal",
+        "like": "scorpions"
+    },
+    {
+        "type": "animal",
+        "like": "bees"
+    },
+    {
+        "type": "food",
+        "like": "mutton"
+    },
+    {
+        "type": "food",
+        "like": "chevon"
+    },
+    {
+        "type": "food",
+        "like": "camel meat"
+    },
+    {
+        "type": "food",
+        "like": "wine"
+    },
+    {
+        "type": "food",
+        "like": "dates"
+    },
+    {
+        "type": "food",
+        "like": "mead"
+    },
+    {
+        "type": "food",
+        "like": "berries"
+    },
+    {
+        "type": "food",
+        "like": "stew"
+    },
+    {
+        "type": "food",
+        "like": "cake"
+    },
+    {
+        "type": "food",
+        "like": "salad"
+    },
+    {
+        "type": "food",
+        "like": "cheese"
+    },
+    {
+        "type": "hobby",
+        "like": "drawing"
+    },
+    {
+        "type": "hobby",
+        "like": "weaving"
+    },
+    {
+        "type": "hobby",
+        "like": "sculpting"
+    },
+    {
+        "type": "hobby",
+        "like": "blowing glass"
+    },
+    {
+        "type": "hobby",
+        "like": "sports"
+    },
+    {
+        "type": "hobby",
+        "like": "dragon-racing"
+    },
+    {
+        "type": "hobby",
+        "like": "reading"
+    },
+    {
+        "type": "hobby",
+        "like": "exploring"
+    },
+    {
+        "type": "hobby",
+        "like": "sparring"
+    },
+    {
+        "type": "hobby",
+        "like": "music"
+    },
+    {
+        "type": "hobby",
+        "like": "singing"
+    },
+    {
+        "type": "hobby",
+        "like": "playing an instrument"
+    },
+    {
+        "type": "hobby",
+        "like": "dancing"
+    },
+    {
+        "type": "status",
+        "like": "being alone"
+    },
+        {
+        "type": "status",
+        "like": "being around others"
+    },
+    {
+        "type": "status",
+        "like": "crowded places"
+    },
+    {
+        "type": "status",
+        "like": "night life"
+    },
+    {
+        "type": "status",
+        "like": "the church"
+    },
+    {
+        "type": "status",
+        "like": "devotion to the Gods"
+    },
+    {
+        "type": "status",
+        "like": "going to the bar"
+    },
+    {
+        "type": "status",
+        "like": "gambling"
+    },
+    {
+        "type": "status",
+        "like": "making friends"
+    }
+]

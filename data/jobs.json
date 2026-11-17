@@ -1,0 +1,212 @@
+[
+    {
+        "title": "apothecary",
+        "type": "merchant",
+        "class": "middle"
+    },
+    {
+        "title": "armorer",
+        "type": "smith",
+        "class": "high"
+    },
+    {
+        "title": "artisan",
+        "type": "merchant",
+        "class": "middle"
+    },
+    {
+        "title": "artist",
+        "type": "creative",
+        "class": "high"
+    },
+    {
+        "title": "baker",
+        "type": "merchant",
+        "class": "middle"
+    },
+    {
+        "title": "bartender",
+        "type": "server",
+        "class": "middle"
+    },
+    {
+        "title": "blacksmith",
+        "type": "smith",
+        "class": "middle"
+    },
+    {
+        "title": "butcher",
+        "type": "merchant",
+        "class": "middle"
+    },
+    {
+        "title": "camel herder",
+        "type": "shepherd",
+        "class": "low"
+    },
+    {
+        "title": "carter",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "cook",
+        "type": "server",
+        "class": "middle"
+    },
+    {
+        "title": "dairy farmer",
+        "type": "shepherd",
+        "class": "low"
+    },
+    {
+        "title": "dragonkeeper",
+        "type": "shepherd",
+        "class": "middle"
+    },
+    {
+        "title": "dyer",
+        "type": "merchant",
+        "class": "low"
+    },
+    {
+        "title": "fiber farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "fruit farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "grain farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "guard",
+        "type": "authority",
+        "class": "middle"
+    },
+    {
+        "title": "herb farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "landlord",
+        "type": "merchant",
+        "class": "middle"
+    },
+    {
+        "title": "leathercrafter",
+        "type": "merchant",
+        "class": "middle"
+    },
+    {
+        "title": "legume farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "messenger",
+        "type": "server",
+        "class": "low"
+    },
+    {
+        "title": "miner",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "monk",
+        "type": "religious",
+        "class": "middle"
+    },
+    {
+        "title": "priest",
+        "type": "religious",
+        "class": "high"
+    },
+    {
+        "title": "prostitute",
+        "type": "server",
+        "class": "low"
+    },
+    {
+        "title": "scribe",
+        "type": "creative",
+        "class": "high"
+    },
+    {
+        "title": "servant",
+        "type": "server",
+        "class": "low"
+    },
+    {
+        "title": "soldier",
+        "type": "authority",
+        "class": "middle"
+    },
+    {
+        "title": "spice farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "stonecutter",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "stonemason",
+        "type": "laborer",
+        "class": "middle"
+    },
+    {
+        "title": "tailor",
+        "type": "creative",
+        "class": "middle"
+    },
+    {
+        "title": "tanner",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "tax collector",
+        "type": "authority",
+        "class": "high"
+    },
+    {
+        "title": "threader",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "vegetable farmer",
+        "type": "farmer",
+        "class": "low"
+    },
+    {
+        "title": "weaver",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "winemaker",
+        "type": "merchant",
+        "class": "high"
+    },
+    {
+        "title": "woodcutter",
+        "type": "laborer",
+        "class": "low"
+    },
+    {
+        "title": "wyverneer",
+        "type": "shepherd",
+        "class": "high"
+    }
+]

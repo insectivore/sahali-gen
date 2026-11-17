@@ -1,0 +1,152 @@
+[
+    {
+        "type": "leucistic",
+        "base": "red",
+        "tint": "white",
+        "morph": "blush"
+    },
+    {
+        "type": "normal",
+        "base": "red",
+        "tint": "light",
+        "morph": "rustback"
+    },
+    {
+        "type": "normal",
+        "base": "red",
+        "tint": "mid",
+        "morph": "brickback"
+    },
+    {
+        "type": "normal",
+        "base": "red",
+        "tint": "dark",
+        "morph": "bloodstone"
+    },
+    {
+        "type": "melanistic",
+        "base": "red",
+        "tint": "black",
+        "morph": "sanguine"
+    },
+    {
+        "type": "leucistic",
+        "base": "brown",
+        "tint": "white",
+        "morph": "sunbleached"
+    },
+    {
+        "type": "normal",
+        "base": "brown",
+        "tint": "light",
+        "morph": "wheaten"
+    },
+    {
+        "type": "normal",
+        "base": "brown",
+        "tint": "mid",
+        "morph": "drygrass"
+    },
+    {
+        "type": "normal",
+        "base": "brown",
+        "tint": "dark",
+        "morph": "mesquite"
+    },
+    {
+        "type": "melanistic",
+        "base": "brown",
+        "tint": "black",
+        "morph": "umber"
+    },
+    {
+        "type": "leucistic",
+        "base": "purple",
+        "tint": "white",
+        "morph": "lavender"
+    },
+    {
+        "type": "normal",
+        "base": "purple",
+        "tint": "light",
+        "morph": "shale-scale"
+    },
+    {  
+        "type": "normal",
+        "base": "purple",
+        "tint": "mid",
+        "morph": "sunset"
+    },
+    {
+        "type": "normal",
+        "base": "purple",
+        "tint": "dark",
+        "morph": "asphodel"
+    },
+    {
+        "type": "melanistic",
+        "base": "purple",
+        "tint": "black",
+        "morph": "midnight"
+    },
+    {
+        "type": "leucistic",
+        "base": "gray",
+        "tint": "white",
+        "morph": "alabaster"
+    },
+    {
+        "type": "normal",
+        "base": "gray",
+        "tint": "light",
+        "morph": "slateback"
+    },
+    {
+        "type": "normal",
+        "base": "gray",
+        "tint": "mid",
+        "morph": "stoney"
+    },
+    {
+        "type": "normal",
+        "base": "gray",
+        "tint": "dark",
+        "morph": "basaltic"
+    },
+    {
+        "type": "melanistic",
+        "base": "gray",
+        "tint": "black",
+        "morph": "vulcan"
+    },
+    {
+        "type": "xanthic",
+        "base": "yellow",
+        "tint": "light",
+        "morph": "sunlight"
+    },
+    {
+        "type": "xanthic",
+        "base": "yellow",
+        "tint": "mid",
+        "morph": "golden"
+    },
+    {
+        "type": "xanthic",
+        "base": "yellow",
+        "tint": "dark",
+        "morph": "bejeweled"
+    },
+    {
+        "type": "hypermelanistic",
+        "base": "black",
+        "tint": "black",
+        "morph": "obsidian"
+    },
+    {
+        "type": "albino",
+        "base": "white",
+        "tint": "white",
+        "morph": "ivory"
+    }
+]

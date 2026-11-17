@@ -1,0 +1,166 @@
+[
+    {
+        "type": "animal",
+        "dislike": "hyenas"
+    },
+    {
+        "type": "animal",
+        "dislike": "foxes"
+    },
+    {
+        "type": "animal",
+        "dislike": "cats"
+    },
+    {
+        "type": "animal",
+        "dislike": "mice"
+    },
+    {
+        "type": "animal",
+        "dislike": "flies"
+    },
+    {
+        "type": "animal",
+        "dislike": "beetles"
+    },
+    {
+        "type": "animal",
+        "dislike": "spiders"
+    },
+    {
+        "type": "animal",
+        "dislike": "scorpions"
+    },
+    {
+        "type": "animal",
+        "dislike": "ants"
+    },
+    {
+        "type": "food",
+        "dislike": "mutton"
+    },
+    {
+        "type": "food",
+        "dislike": "chevon"
+    },
+    {
+        "type": "food",
+        "dislike": "camel meat"
+    },
+    {
+        "type": "food",
+        "dislike": "wine"
+    },
+    {
+        "type": "food",
+        "dislike": "dates"
+    },
+    {
+        "type": "food",
+        "dislike": "mead"
+    },
+    {
+        "type": "food",
+        "dislike": "berries"
+    },
+    {
+        "type": "food",
+        "dislike": "stew"
+    },
+    {
+        "type": "food",
+        "dislike": "cake"
+    },
+    {
+        "type": "food",
+        "dislike": "salad"
+    },
+    {
+        "type": "food",
+        "dislike": "cheese"
+    },
+    {
+        "type": "hobby",
+        "dislike": "drawing"
+    },
+    {
+        "type": "hobby",
+        "dislike": "weaving"
+    },
+    {
+        "type": "hobby",
+        "dislike": "sculpting"
+    },
+    {
+        "type": "hobby",
+        "dislike": "blowing glass"
+    },
+    {
+        "type": "hobby",
+        "dislike": "sports"
+    },
+    {
+        "type": "hobby",
+        "dislike": "dragon-racing"
+    },
+    {
+        "type": "hobby",
+        "dislike": "reading"
+    },
+    {
+        "type": "hobby",
+        "dislike": "exploring"
+    },
+    {
+        "type": "hobby",
+        "dislike": "sparring"
+    },
+    {
+        "type": "hobby",
+        "dislike": "music"
+    },
+    {
+        "type": "hobby",
+        "dislike": "singing"
+    },
+    {
+        "type": "hobby",
+        "dislike": "playing an instrument"
+    },
+    {
+        "type": "hobby",
+        "dislike": "dancing"
+    },
+    {
+        "type": "status",
+        "dislike": "being alone"
+    },
+        {
+        "type": "status",
+        "dislike": "being around others"
+    },
+    {
+        "type": "status",
+        "dislike": "crowded places"
+    },
+    {
+        "type": "status",
+        "dislike": "night life"
+    },
+    {
+        "type": "status",
+        "dislike": "the church"
+    },
+    {
+        "type": "status",
+        "dislike": "going to the bar"
+    },
+    {
+        "type": "status",
+        "dislike": "gambling"
+    },
+    {
+        "type": "status",
+        "dislike": "making friends"
+    }
+]

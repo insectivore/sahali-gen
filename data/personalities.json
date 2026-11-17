@@ -1,0 +1,226 @@
+[
+    {
+        "type": "positive",
+        "trait": "adaptable"
+    },
+    {
+        "type": "positive",
+        "trait": "adventurous"
+    },
+    {
+        "type": "positive",
+        "trait": "amiable"
+    },
+    {
+        "type": "positive",
+        "trait": "appreciative"
+    },
+    {
+        "type": "positive",
+        "trait": "caring"
+    },
+    {
+        "type": "positive",
+        "trait": "charismatic"
+    },
+    {
+        "type": "positive",
+        "trait": "compassionate"
+    },
+    {
+        "type": "positive",
+        "trait": "courageous"
+    },
+    {
+        "type": "positive",
+        "trait": "dependable"
+    },
+    {
+        "type": "positive",
+        "trait": "determined"
+    },
+    {
+        "type": "positive",
+        "trait": "diplomatic"
+    },
+    {
+        "type": "positive",
+        "trait": "empathetic"
+    },
+    {
+        "type": "positive",
+        "trait": "faithful"
+    },
+    {
+        "type": "positive",
+        "trait": "flexible"
+    },
+    {
+        "type": "positive",
+        "trait": "friendly"
+    },
+    {
+        "type": "positive",
+        "trait": "generous"
+    },
+    {
+        "type": "positive",
+        "trait": "grateful"
+    },
+    {
+        "type": "positive",
+        "trait": "honest"
+    },
+    {
+        "type": "positive",
+        "trait": "humble"
+    },
+    {
+        "type": "positive",
+        "trait": "kind"
+    },
+    {
+        "type": "positive",
+        "trait": "loyal"
+    },
+    {
+        "type": "positive",
+        "trait": "patient"
+    },
+    {
+        "type": "positive",
+        "trait": "reliable"
+    },
+    {
+        "type": "positive",
+        "trait": "resilient"
+    },
+    {
+        "type": "neutral",
+        "trait": "ambitious"
+    },
+    {
+        "type": "neutral",
+        "trait": "analytical"
+    },
+    {
+        "type": "neutral",
+        "trait": "cautious"
+    },
+    {
+        "type": "neutral",
+        "trait": "complex"
+    },
+    {
+        "type": "neutral",
+        "trait": "reserved"
+    },
+    {
+        "type": "neutral",
+        "trait": "serious"
+    },
+    {
+        "type": "neutral",
+        "trait": "quiet"
+    },
+    {
+        "type": "neutral",
+        "trait": "traditional"
+    },
+    {
+        "type": "neutral",
+        "trait": "versatile"
+    },
+    {
+        "type": "negative",
+        "trait": "aggressive"
+    },
+    {
+        "type": "negative",
+        "trait": "arrogant"
+    },
+    {
+        "type": "negative",
+        "trait": "bitter"
+    },
+    {
+        "type": "negative",
+        "trait": "callous"
+    },
+    {
+        "type": "negative",
+        "trait": "cold-hearted"
+    },
+    {
+        "type": "negative",
+        "trait": "cowardly"
+    },
+    {
+        "type": "negative",
+        "trait": "cruel"
+    },
+    {
+        "type": "negative",
+        "trait": "cynical"
+    },
+    {
+        "type": "negative",
+        "trait": "deceitful"
+    },
+    {
+        "type": "negative",
+        "trait": "dishonest"
+    },
+    {
+        "type": "negative",
+        "trait": "disloyal"
+    },
+    {
+        "type": "negative",
+        "trait": "envious"
+    },
+    {
+        "type": "negative",
+        "trait": "greedy"
+    },
+    {
+        "type": "negative",
+        "trait": "hypocritical"
+    },
+    {
+        "type": "negative",
+        "trait": "impatient"
+    },
+    {
+        "type": "negative",
+        "trait": "insecure"
+    },
+    {
+        "type": "negative",
+        "trait": "irresponsible"
+    },
+    {
+        "type": "negative",
+        "trait": "lazy"
+    },
+    {
+        "type": "negative",
+        "trait": "manipulative"
+    },
+    {
+        "type": "negative",
+        "trait": "narcissistic"
+    },
+    {
+        "type": "negative",
+        "trait": "pessimistic"
+    },
+    {
+        "type": "negative",
+        "trait": "selfish"
+    },
+    {
+        "type": "negative",
+        "trait": "stubborn"
+    }
+]

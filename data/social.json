@@ -1,0 +1,47 @@
+[
+    {
+        "status": "impoverished",
+        "absolute": "lower-class",
+        "relative": "lower"
+    },
+    {
+        "status": "needy",
+        "absolute": "lower-class",
+        "relative": "middle"
+    },
+    {
+        "status": "poor",
+        "absolute": "lower-class",
+        "relative": "upper"
+    },
+    {
+        "status": "getting by",
+        "absolute": "middle-class",
+        "relative": "lower"
+    },
+    {
+        "status": "bourgeoisie",
+        "absolute": "middle-class",
+        "relative": "middle"
+    },
+    {
+        "status": "well-off",
+        "absolute": "middle-class",
+        "relative": "high"
+    },
+    {
+        "status": "wealthy",
+        "absolute": "higher-class",
+        "relative": "lower"
+    },
+    {
+        "status": "rich",
+        "absolute": "higher-class",
+        "relative": "middle"
+    },
+    {
+        "status": "royal",
+        "absolute": "higher-class",
+        "relative": "higher"
+    }
+]
