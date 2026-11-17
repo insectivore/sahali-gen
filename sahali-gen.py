@@ -461,7 +461,7 @@ def run_generator() -> None:
     sys.exit()
 
 def main() -> None:
-    print("Welcome to the official Sahali character generator (version 1.0.0)")
+    print("Welcome to the official Sahali character generator (version 1.1.0)")
     print("-------------------------------------------------------------------------------")
     print("Sahalis are members of my fictional anthropomorphic species, the Sahalians.")
     print("I have a looooot of worldbuilding done on them but none of it is public yet,")

@@ -30,8 +30,9 @@ I'm pleased to announce that **sahali-gen** is fully functional and now in alpha
 
 ### the executable
 
-- download the .exe file from the repo page
-- double-click to run it
+- click on "releases" and navigate to the latest release
+- click on the file "sahali-gen.exe" to install it
+- double-click the file to run it in the terminal
 
 ### the raw python file
 
