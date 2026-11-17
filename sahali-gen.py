@@ -1,10 +1,14 @@
 import random
 import sys
-from rich.console import Console, Group
-from rich.text import Text
-from rich.live import Live
+from datetime import datetime
+from pathlib import Path
+from rich.console import Console
 from rich.table import Table
+
 console = Console()
+
+# save into a "saved_characters" folder in the same directory as this script
+OUTPUT_DIR = Path(__file__).resolve().parent / "saved_characters"
 
 # trait lists
 NAME = ["WIP"]
@@ -43,81 +47,60 @@ def generate_profile() -> dict[str, str | int]:
         "Dislikes": random.choice(DISLIKES),
     }
 
-def generator() -> Table:
+def build_table(profile: dict[str, str | int]) -> Table:
     table = Table(title="Random Sahali Profile", show_header=False)
     table.add_column("Field", style="bold")
     table.add_column("Value")
-    name = random.choice(NAME)
-    sex = random.choice(SEX)
-    age = random.randint(1, 100)
-    sexuality = random.choice(SEXUALITY)
-    district = random.choice(DISTRICT)
-    social = random.choice(SOCIAL)
-    morph = random.choice(MORPH)
-    eyes = random.choice(EYES)
-    stature = random.choice(STATURE)
-    frame = random.choice(FRAME)
-    mass = random.choice(MASS)
-    unusual = random.choice(UNUSUAL)
-    personality = random.choice(PERSONALITY)
-    job = random.choice(JOB)
-    likes = random.choice(LIKES)
-    dislikes = random.choice(DISLIKES)
-    char_profile = [name, sex, age, sexuality, district, social, morph, eyes, stature, frame, mass, unusual, personality, job, likes, dislikes]
 
     table.add_row("[purple4]Overview[/]", "")
-    table.add_row("[medium_purple4]Name:[/]", name)
-    table.add_row("[medium_purple4]Sex:[/]", sex)
-    table.add_row("[medium_purple4]Age:[/]", str(age))
-    table.add_row("[medium_purple4]Sexuality:[/]", sexuality)
-    table.add_row("[medium_purple4]District:[/]", district)
-    table.add_row("[medium_purple4]Social class:[/]", social)
+    for field in ("Name", "Sex", "Age", "Sexuality", "District", "Social class"):
+        table.add_row(f"[medium_purple4]{field}:[/]", str(profile[field]))
 
     table.add_section()
     table.add_row("[red]Appearance[/]", "")
-    table.add_row("[light_pink4]Morph:[/]", morph)
-    table.add_row("[light_pink4]Eye color:[/]", eyes)
-    table.add_row("[light_pink4]Stature:[/]", stature)
-    table.add_row("[light_pink4]Frame:[/]", frame)
-    table.add_row("[light_pink4]Body mass:[/]", mass)
-    table.add_row("[light_pink4]Unusual features:[/]", unusual)
+    for field in ("Morph", "Eye color", "Stature", "Frame", "Body mass", "Unusual features"):
+        table.add_row(f"[light_pink4]{field}:[/]", str(profile[field]))
 
     table.add_section()
     table.add_row("[orange4]Behavior[/]", "")
-    table.add_row("[wheat4]Personality:[/]", personality)
-    table.add_row("[wheat4]Profession:[/]", job)
-    table.add_row("[wheat4]Likes:[/]", likes)
-    table.add_row("[wheat4]Dislikes:[/]", dislikes)
+    for field in ("Personality", "Profession", "Likes", "Dislikes"):
+        table.add_row(f"[wheat4]{field}:[/]", str(profile[field]))
+
     return table
 
-def get_data():
-    """ unsure """
-
-def save_profile(char_profile, filename):
-    with open(filename, "w", encoding="utf-8") as file:
-        for item in char_profile:
-            file.write(f"{item}\n")
-
-def build_view() -> Group:
-    return Group(
-        generator(),
-        Text("enter to generate again, s to save character sheet, x to exit >> "),
-    )
+def save_table(table: Table) -> Path:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filepath = OUTPUT_DIR / f"sahali_{timestamp}.txt"
+    with open(filepath, "w", encoding="utf-8") as file:
+        Console(file=file, width=80).print(table)
+    return filepath
 
 def run_generator() -> None:
-    with Live(build_view(), console=console, auto_refresh=False, screen=True) as live:
-        while True:
-            choice = input("").strip().lower()
-            if choice == "x":
-                break
-            elif choice == "s":
-                char_data = get_data()
-                save_profile(char_data, "random_char.txt")
-            live.update(build_view(), refresh=True)
+    current_profile = generate_profile()
+    current_table = build_table(current_profile)
+    status = ""
+
+    while True:
+        console.clear()
+        console.print(current_table)
+        if status:
+            console.print(status, style="dark_cyan")
+        choice = console.input("enter to generate again, s to save character sheet, x to exit >> ").strip().lower()
+        if choice == "x":
+            break
+        elif choice == "s":
+            saved_path = save_table(current_table)
+            status = f"Saved to: {saved_path}"
+        else:
+            current_profile = generate_profile()
+            current_table = build_table(current_profile)
+            status = ""
+
     sys.exit()
 
 def main() -> None:
-    print("Welcome to the official Sahali character generator (version 0.0.2)")
+    print("Welcome to the official Sahali character generator (version 1.0.0)")
     print("-------------------------------------------------------------------------------")
     print("Sahalis are members of my fictional anthropomorphic species, the Sahalians.")
     print("I have a looooot of worldbuilding done on them but none of it is public yet,")
@@ -133,6 +116,6 @@ def main() -> None:
         if choice == "x":
             sys.exit()
         run_generator()
-
+    
 if __name__ == "__main__":
     main()

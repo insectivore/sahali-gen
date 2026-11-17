@@ -1,0 +1,24 @@
+          Random Sahali Profile           
+┌───────────────────┬────────────────────┐
+│ Overview          │                    │
+│ Name:             │ WIP                │
+│ Sex:              │ male               │
+│ Age:              │ 28                 │
+│ Sexuality:        │ bisexual           │
+│ District:         │ WIP                │
+│ Social class:     │ lower middle-class │
+├───────────────────┼────────────────────┤
+│ Appearance        │                    │
+│ Morph:            │ WIP                │
+│ Eye color:        │ WIP                │
+│ Stature:          │ short              │
+│ Frame:            │ ectomorphic        │
+│ Body mass:        │ skinny             │
+│ Unusual features: │ WIP                │
+├───────────────────┼────────────────────┤
+│ Behavior          │                    │
+│ Personality:      │ WIP                │
+│ Profession:       │ WIP                │
+│ Likes:            │ WIP                │
+│ Dislikes:         │ WIP                │
+└───────────────────┴────────────────────┘
