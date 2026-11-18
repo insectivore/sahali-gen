@@ -13,7 +13,7 @@ listing basic physical and personality traits with each new generation.
 I'm pleased to announce that **sahali-gen** is fully functional and now in alpha - **version 1.1.0**!
 
 **new features**
-- This game can now be run as an .exe for ease of use!
+- This game is now bundled -- it can be run as an executable on Windows or a Debian/Ubuntu-based Linux distro!
 - If you generate a profile you really like, you now have the option to save it as a text file!
 - Separate first and last names have been introduced, as well as weighting to certain options for realism
 
@@ -21,25 +21,50 @@ I'm pleased to announce that **sahali-gen** is fully functional and now in alpha
 - Generated text file names will contain the first & last name of the character profile saved to it.
 - Improvements on weighting, accuracy & worldbuilding within generations
 
-## requirements:
+## requirements & how to run:
 
-- platform: a functional computer
-- software: none (if running .exe), Python interpreter & rich library (if running raw .py file)
+### Windows
 
-## how to run:
-
-### the executable
+**the executable**
+- requirements: none
 
 - click on "releases" and navigate to the latest release
+- scroll down to the "assets" dropdown
 - click on the file "sahali-gen.exe" to install it
-- double-click the file to run it in the terminal
+- open file explorer and double-click the file to run it in the terminal
 
-### the raw python file
+**the raw .py file**
+- requirements: Python interpreter, rich
 
-- install rich in for your terminal if you don't have it already: ```pip install rich```
-- download the game files from the repo page
+- download the latest python.exe from the official Python website
+- command to install rich: ```pip install rich```
+- download sahali-gen.py and the data folder from the repo page
 - cd into the directory you downloaded them to (eg: ```cd Downloads```)
-- run the following command: ```python sahali-gen.py```
+- command to run the program: ```python sahali-gen.py```
+
+### Linux (Debian/Ubuntu-based)
+
+**the executable**
+- requirements: none
+
+- click on "releases" and navigate to the latest release
+- scroll down to the "assets" dropdown
+- click on the file "sahali-gen-linux" to install it
+- cd into the directory you downloaded it to (eg: ```cd Downloads```)
+- command to grant file permission to run: ```chmod +x "sahali-gen-linux"```
+- command to run the program: ```./"sahali-gen-linux"```
+
+**the raw .py file**
+- requirements: Python3, pip, venv, rich
+
+- command to install python3, pip and venv: ```sudo apt install python3 python3-pip python3-venv -y```
+- download sahali-gen.py and the data folder from the repo page
+- put these files in a new subdirectory only for the game (eg: "sahaligame")
+- cd into this new directory (eg: ```cd Downloads/sahaligame```)
+- command to create virtual environment: ```python3 -m venv venv```
+- command to activate virtual environment: ```source venv/bin/activate```
+- command to install rich: ```pip install rich```
+- command to run the program: ```python sahali-gen.py```
 
 ## gameplay
 
